@@ -1,0 +1,84 @@
+h1 {
+  color: white;
+  font-family: monospace;
+  padding-bottom: 50px;
+}
+
+.border-radius-slider {
+  position: absolute;
+}
+
+.slider-top-left {
+  position: relative;
+  top: -240px;
+  left: 140px;
+  transform: rotate(90deg);
+  width: 150px;
+}
+
+.slider-top-right {
+  position: relative;
+  top: -258px;
+  left: 480px;
+  transform: rotate(90deg);
+  width: 150px;
+}
+
+.slider-bottom-left {
+  position: relative;
+  top: -117px;
+  left: 131px;
+  transform: rotate(-90deg);
+  width: 150px;
+}
+
+.slider-bottom-right {
+  position: relative;
+  top: -135px;
+  left: 471px;
+  transform: rotate(-90deg);
+  width: 150px;
+}
+
+.click-copy {
+  color: white;
+  font-family: monospace;
+  font-size: larger;
+}
+
+.sandbox-box {
+  height: 300px;
+  width: 300px;
+  color: rgb(252, 55, 55);
+  background: radial-gradient(
+    circle,
+    rgba(147, 63, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 200%
+  );
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.css-properties-box {
+  width: 320px;
+  background: black;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.css-text {
+  color: grey;
+  text-align: left;
+  padding-left: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+  font-size: large;
+  font-weight: 600;
+
+  textarea {
+    resize: none;
+  }
+}
