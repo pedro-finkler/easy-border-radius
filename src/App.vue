@@ -25,7 +25,7 @@ export default {
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   background: rgba(2, 0, 36, 1) 0%;
   height: 100%;
   width: 100%;

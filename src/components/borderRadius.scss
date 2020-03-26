@@ -6,36 +6,41 @@ h1 {
 
 .border-radius-slider {
   position: absolute;
+  display: inline-block;
 }
 
 .slider-top-left {
+  display: inline-block;
   position: relative;
-  top: -240px;
-  left: 140px;
+  bottom: 280px;
+  right: 100px;
   transform: rotate(90deg);
   width: 150px;
 }
 
 .slider-top-right {
+  display: inline-block;
   position: relative;
-  top: -258px;
-  left: 480px;
+  bottom: 280px;
+  right: -100px;
   transform: rotate(90deg);
   width: 150px;
 }
 
 .slider-bottom-left {
+  display: inline-block;
   position: relative;
-  top: -117px;
-  left: 131px;
+  bottom: 138px;
+  right: 108.5px;
   transform: rotate(-90deg);
   width: 150px;
 }
 
 .slider-bottom-right {
+  display: inline-block;
   position: relative;
-  top: -135px;
-  left: 471px;
+  bottom: 138px;
+  right: -91px;
   transform: rotate(-90deg);
   width: 150px;
 }
@@ -57,6 +62,7 @@ h1 {
   );
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .css-properties-box {
